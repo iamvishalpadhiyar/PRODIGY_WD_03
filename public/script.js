@@ -94,6 +94,13 @@ reset.addEventListener("click", () => {
     row.style.display = 'block';
     game.style.display = 'none';
     turn.style.display = 'none';
+    xWins = 0;
+    oWins = 0;
+    xCount.textContent = xWins;
+    oCount.textContent = oWins;
+    newbtn.style.backgroundColor = "rgb(204, 204, 204)";
+    newbtn.style.border = "2px solid rgb(204, 204, 204)";
+    firstMoveMade = false;
     resetBoard();
 });
 
