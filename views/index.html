@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe Game</h1>
+        <div class="row">
+            <div class="col-1">
+                <h2>Select Game Mode:</h2>
+                <div class="bot-btn">
+                    <button class="c-btn active">Computer</button>
+                    <button class="u-btn">2 Player</button>
+                </div>
+                <h2>Win Battle Count:</h2>
+                <div class="win-count">
+                    <h3>Player O: <span id="ocount">0</span></h3>
+                    <h3>Player X: <span id="xcount">0</span></h3>
+                </div>
+                <div class="game-btn">
+                    <button id="start">Start Game</button>
+                    <button id="reset">Reset Game</button>
+                    <button id="new">New Game</button>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="turn">
+                    <button id="playerX">Player X</button>
+                    <button id="playerO">Player O</button>
+                </div>
+                <div class="game">
+                    <div class="box" data-index="0"></div>
+                    <div class="box" data-index="1"></div>
+                    <div class="box" data-index="2"></div>
+                    <div class="box" data-index="3"></div>
+                    <div class="box" data-index="4"></div>
+                    <div class="box" data-index="5"></div>
+                    <div class="box" data-index="6"></div>
+                    <div class="box" data-index="7"></div>
+                    <div class="box" data-index="8"></div>
+                </div> 
+             </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
