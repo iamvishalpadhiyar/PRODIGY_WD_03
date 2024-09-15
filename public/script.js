@@ -1,9 +1,9 @@
-let currentPlayer = 'X';
 let gameActive = true;
 let xWins = 0;
 let oWins = 0;
 let isComputerOpponent = true;
 let firstMoveMade = false;
+let currentPlayer = 'X';
 
 const start = document.querySelector("#start");
 const reset = document.querySelector("#reset");
